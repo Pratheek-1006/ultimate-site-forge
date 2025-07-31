@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom restaurant theme colors
+				'spice-red': 'hsl(var(--spice-red))',
+				'turmeric-yellow': 'hsl(var(--turmeric-yellow))',
+				'curry-orange': 'hsl(var(--curry-orange))',
+				'coconut-white': 'hsl(var(--coconut-white))',
+				'pepper-dark': 'hsl(var(--pepper-dark))'
+			},
+			backgroundImage: {
+				'gradient-spice': 'var(--gradient-spice)',
+				'gradient-warm': 'var(--gradient-warm)'
+			},
+			boxShadow: {
+				'warm': 'var(--shadow-warm)',
+				'soft': 'var(--shadow-soft)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
